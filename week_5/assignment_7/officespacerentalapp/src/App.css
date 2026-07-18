@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.office-image {
+  width: 600px;
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.office-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.office-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.office-card h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.office-address {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.office-rent {
+  font-weight: bold;
+  font-size: 18px;
+}
